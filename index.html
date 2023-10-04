@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 14</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/5f0fa01923.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Ejercicios Clase 14</h1>
+        </div>
+        
+    </header>
+    <nav>
+        <div class="">
+            <a href="index.html">Inicio</a>
+            <a href="#JS">Javascript</a>
+            <a href="#Font">Font Awesome</a>
+            <a href="#Jquery">Jquery</a>
+            <a href="#videos">Videos</a>
+            <button id="btn-mostrar">Mostrar</button>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div id="DivJS">
+                <a name="JS"></a><h2>Javascript</h2>
+                <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la World Wide Web. Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes, un menú desplegable “click-to-show” (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web, estará viendo los efectos de JavaScript.</p>
+            </div>
+
+            <div id="DivFont">
+                <a name="Font"></a><h2>Font Awesome</h2>
+                <p>Font Awesome es una librería de iconos. Estos iconos pueden ser iconos vectoriales almacenados en un tipo de archivo .svg o pueden ser fuentes web.</p>
+                <p>Estos iconos son tratados como fuentes. Puedes especificar su tamaño usando píxeles, y ellos van a asumir su tamaño de los elementos HTML de su padre.</p>
+                <h3>* Añadir Iconos: <i class="fas fa-thumbs-up"></i></h3>                
+                <p>1: Agrega un ícono de Font Awesome a un botón de tu página web utilizando la clase correspondiente.</p>
+                <button>
+                    <i class="fas fa-thumbs-up"></i> Like
+                  </button>
+                  
+                  <button>
+                    <i class="fas fa-thumbs-down"></i> Dislike
+                  </button>
+                  
+                  <button>
+                    <i class="fas fa-share"></i> Share
+                  </button>
+                <p>2: Cambia el tamaño de un ícono de Font Awesome utilizando CSS. <i id="icono1" class="fa-solid fa-palette"></i></p>
+                <p>3: Utiliza la función de búsqueda de la página de Font Awesome para encontrar un icono que necesites para tu proyecto y agrega el código necesario a tu página web. <i id="icono2"class="fa-solid fa-code"></i></p>                
+                <p>4: Personaliza un ícono de Font Awesome cambiando su color y tamaño utilizando CSS. <i id="icono3" class="fab fa-free-code-camp"></i></p>  
+            </div>
+
+            <div id="DivJquery">
+                <a name="Jquery"></a><h2>JQuery</h2>
+                <p>La biblioteca jQuery es actualmente la biblioteca JavaScript más reconocida en el mercado, ya que esta posee una gran sencillez a la hora de modificar y emplear. También, tiene una comunidad muy grande con varios recursos para los tutoriales, el aprendizaje y más tipos de documentación.</p>
+                <p>Una de las mayores ventajas que tiene jQuery, es que es compatible con varias bibliotecas de JS y posee una gran cantidad de plugins que benefician a la expansión en sus funciones.</p>
+                <p>1: Selecciona todos los enlaces de tu página web y agrégales un evento de click que los haga desaparecer. (arriba en menu)</p>
+                <p>2: Utiliza el método html() para cambiar el contenido de un div en tu página web cuando se presione un botón.</p>
+                <button id="btn-cambiar">Cambiar Div Lista</button>
+                <p>3: Agrega una clase a todos los elementos de una lista desordenada utilizando el método addClass(). (al cargar la página)</p>
+                <p>4: Utiliza el método toggle() para alternar la visibilidad de una sección de tu página web cuando se presiona un botón.</p>
+                <button id="btn-toggle">Metodo Toggle</button>
+            </div>
+
+            <div id="DivLista">
+                <h2>Tecnologias</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>PHP</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <div id="DivVideos">
+                <a name="videos"></a><h2>Videos relacionados</h2>   
+                <div class="fvideos"><iframe width="853" height="480" src="https://www.youtube.com/embed/Ei1y51K8jQk" title="Aprende VS Code ahora! | curso completo de VSCode desde CERO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <br> 
+                <div class="fvideos"><iframe width="853" height="480" src="https://www.youtube.com/embed/u3A-tKLIH1I" title="7 extensiones para aumentar la productividad y velocidad en VSCode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>      
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

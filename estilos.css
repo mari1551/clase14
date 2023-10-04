@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    background-image: url("img/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+nav{
+    /* background-color: ;#1D1E1F  */
+    height: 100px;
+    text-align: center;
+}
+div{
+    margin-top:20px;
+    padding: 20px;
+}
+p{
+    margin-bottom:10px;
+}
+
+#DivVideos{
+    text-align: center;
+}
+
+#icono1{
+    font-size: 50px;
+}
+#icono2{
+    font-size: 20px;
+}
+#icono3{
+    font-size: 60px;
+    color:aquamarine;
+}
+
+.item{
+    color:blueviolet;
+    background-color: antiquewhite;
+}
+.rosa{
+    color: #DE3163;
+    background-color: #F1DDCF;
+}
