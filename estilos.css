@@ -45,7 +45,10 @@ p{
 
 .item{
     color:blueviolet;
-    background-color: antiquewhite;
+    font-weight: bold;
+    background-color: #E5E4E2;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 .rosa{
     color: #DE3163;
